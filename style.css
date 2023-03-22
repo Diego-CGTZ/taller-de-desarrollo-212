@@ -1,0 +1,65 @@
+
+.cuerpo{
+    background-color: rgb(193, 193, 193);
+}
+.alinear{
+    border-radius: 50%;
+    border: 5px solid rgb(80, 80, 80);
+    border-width: 10px;
+}
+.contenido{
+    display: flex;
+    justify-content: center;
+}
+@font-face {
+    font-family: RigthHouse-Regular;
+    src: url(fuentes/Righteous-Regular.ttf);
+    font-family: graduate-regular;
+    src: url(fuentes/Graduate-Regular.ttf);
+}
+h1{
+    font-family: RigthHouse-Regular;
+    text-align: center;
+    font-size: x-large;
+}
+header{
+    background: url(imagenes/fondocabecera2.png) no-repeat;
+    width: 100%; height: 500px;
+    background-size: cover;
+    background-size: 100%;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+}
+.lineas{
+    width: 15px;
+    color: rgb(79, 79, 79);
+}
+h2{
+    font-family: graduate-regular;
+    text-align: center;
+}
+div.contenedor{
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+}
+div#uno{
+    background-color: rgb(0, 0, 0);
+}
+div#dos{
+    background-color: rgb(255, 255, 255);
+}
+div#tres{
+    background-color: rgb(0, 0, 0);
+}
+div#cuatro{
+    background-color: rgb(255, 255, 255);
+}
+div#cinco{
+    background-color: rgb(0, 0, 0);
+}
+div#seis{
+    background-color: rgb(255, 255, 255);
+}
