@@ -1,6 +1,7 @@
 
 .cuerpo{
     background-color: rgb(193, 193, 193);
+
 }
 .alinear{
     border-radius: 50%;
@@ -29,6 +30,7 @@ header{
     background-size: 100%;
     opacity: 0.6;
     filter: alpha(opacity=60);
+    justify-content: center;
 }
 .lineas{
     width: 15px;
@@ -41,9 +43,9 @@ h2{
 div.contenedor{
     width: 100px;
     height: 100px;
-    justify-content: center;
     opacity: 0.8;
     filter: alpha(opacity=80);
+    align:center;
 }
 div#uno{
     background-color: rgb(0, 0, 0);
@@ -62,4 +64,13 @@ div#cinco{
 }
 div#seis{
     background-color: rgb(255, 255, 255);
+}
+#botones{
+    align: center;
+    width: 100px;
+    height: 100px;
+}
+#negro{
+    background-color: black;
+    color: white;
 }
