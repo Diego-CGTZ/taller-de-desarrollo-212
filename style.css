@@ -18,27 +18,24 @@
     font-family: graduate-regular;
     src: url(fuentes/Graduate-Regular.ttf);
 }
+
 h1{
     font-family: RigthHouse-Regular;
     text-align: center;
     font-size: x-large;
 }
+h2{
+    font-family: graduate-regular;
+    text-align: center;
+}
+
 header{
     background: url(imagenes/cabecera.gif) no-repeat;
     width: 100%; height: 500px;
     background-size: cover;
     background-size: 100%;
-    opacity: 0.6;
+    opacity: 0.9;
     filter: alpha(opacity=90);
-    justify-content: center;
-}
-.lineas{
-    width: 15px;
-    color: rgb(79, 79, 79);
-}
-h2{
-    font-family: graduate-regular;
-    text-align: center;
 }
 div.contenedor{
     width: 100px;
@@ -52,8 +49,9 @@ div.contenedor{
     width: 100px;
     height: 100px;
 }
-#globos{
-    background-color: gray;
-    color: rgb(200, 42, 42);
-    text-align: center;
+#apartados{
+    background-color: black;
+    height: 200px;
+    width: 100%;
+    justify-content: center;
 }
