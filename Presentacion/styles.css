@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body{
+
+    text-align: center;
+    font-family: Helvetica;
+}
+
+.head {
+    display: flex;  /*acomodo de los elementos*/
+    align-items: center; /*alineacion de los iconos*/
+    justify-content: space-between; /*espacio entre el contenido*/
+    height: 63px;
+    background-color: #3b3a3a;
+    position: fixed;
+    width: 100%;
+    z-index: 100; /* posicion dentro de la pagina(adelante/atras)*/
+}
+
+.navbar {
+    display: flex;
+    margin-right: 10px;
+}
+.logo{
+    margin-top: 5px;
+    margin-left: 30px;
+}
+
+.logo img{
+    height: 60px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a {
+    display: block;
+    padding: 23px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    background-color: rgb(64, 178, 152);
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    height: 60vh !important;
+    background: url(imagenes/hilos.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.header .title {
+    background:rgb(64, 178, 152);
+    width: 100%;
+    opacity: .9;
+}
+
+.header h2 {
+    font-size: 100px;
+    font-family:serif;
+}
+
+.header p {
+    font-size: 30px;
+    font-family: 'Times New Roman';
+}
+
+.title {
+    margin-bottom: 40px ;
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+p{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: #fff;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid rgb(64, 178, 152);
+    color: white;
+    text-decoration: none;
+    background-color: rgb(64, 178, 152);
+}
+
+.btn:hover{
+    background: none;
+}
+.btn-home {
+    display: flex;
+}
+
+.btn-home a{
+    margin: 0 10px;
+}
+
+.content {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sau {
+    padding: 30px;
+    background: #3b3a3a;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.box-container .box {
+    height: 11rem;
+    width: 17rem;
+    background: #101010;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgb(0, 0, 0, .5);
+    margin: 2rem; 
+}
+
+.box-container .box i {
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    background: rgb(64, 178, 152);
+    font-size: 2rem;
+    margin: 1rem 0;
+
+}
+
+.box-container .box h3 {
+    font-size: 20px;
+    color: rgb(64, 178, 152);
+}
+
+.box-container .box p {
+    padding: 0 15px;
+    font-size: 18px;
+}
+
+.quienes{
+    background: #101010;
+}
+
+.productos {
+    background: url(imagenes/productos.jpg) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+.productos .title { 
+    background-color: rgb(64, 178, 152);
+}
+
+.precios {
+    background: #1f1d1d;
+}
+
+@media(max-width: 768px) {
+    .title {
+        margin-bottom: 0;
+        font-size: 40px;
+    }
+
+    .sau {
+        height: 120vh;
+    }
+
+    .navbar {
+        display: none;
+    }
+}
