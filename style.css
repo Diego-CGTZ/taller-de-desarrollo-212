@@ -55,3 +55,9 @@ div.contenedor{
     width: 100%;
     justify-content: center;
 }
+
+.presentacion {
+    align-items: center;
+    justify-content: center;
+    
+}
