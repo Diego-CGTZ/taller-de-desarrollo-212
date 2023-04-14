@@ -16,20 +16,19 @@ body{
     display: flex;  /*acomodo de los elementos*/
     align-items: center; /*alineacion de los iconos*/
     justify-content: space-between; /*espacio entre el contenido*/
-    height: 63px;
+    height: 10%;
     background-color: #3b3a3a;
     position: fixed;
     width: 100%;
     z-index: 100; /* posicion dentro de la pagina(adelante/atras)*/
 }
-
 .navbar {
     display: flex;
-    margin-right: 10px;
+    margin-right: 10%;
 }
 .logo{
-    margin-top: 5px;
-    margin-left: 30px;
+    margin-top: .5%;
+    margin-left: .5%;
 }
 
 .logo img{
@@ -53,7 +52,7 @@ body{
 }
 
 .navbar a:hover {
-    background-color: rgb(64, 178, 152);
+    background-color: rgb(46, 113, 98);
 }
 
 .header {
@@ -69,9 +68,10 @@ body{
 }
 
 .header .title {
-    background:rgb(64, 178, 152);
+    background:rgb(46, 113, 98);
     width: 100%;
     opacity: .9;
+    margin-top: 5%;
 }
 
 .header h2 {
@@ -82,6 +82,10 @@ body{
 .header p {
     font-size: 30px;
     font-family: 'Times New Roman';
+}
+
+.header .btn {
+    margin-bottom: 10%;
 }
 
 .title {
@@ -102,11 +106,13 @@ p{
 .btn {
     display: inline-block;
     margin-top: 15px;
-    padding: 10px 40px;
-    border: 2px solid rgb(64, 178, 152);
+    padding: 10px 20px;
+    border: 2px solid rgb(46, 113, 98);
     color: white;
     text-decoration: none;
-    background-color: rgb(64, 178, 152);
+    background-color: rgb(46, 113, 98);
+    border-radius: 10%;
+    box-shadow: 5px 5px 5px black;
 }
 
 .btn:hover{
@@ -157,7 +163,7 @@ p{
     text-align: center;
     border-radius: 50%;
     color: #fff;
-    background: rgb(64, 178, 152);
+    background: rgb(46, 113, 98);
     font-size: 2rem;
     margin: 1rem 0;
 
@@ -165,7 +171,7 @@ p{
 
 .box-container .box h3 {
     font-size: 20px;
-    color: rgb(64, 178, 152);
+    color: rgb(46, 113, 98);
 }
 
 .box-container .box p {
@@ -175,6 +181,19 @@ p{
 
 .quienes{
     background: #101010;
+    height: 100%;
+}
+
+.quienes h2 {
+    margin-top: 5%;
+}
+
+.quienes p{
+    text-align: justify;
+}
+
+.quienes .btn {
+    margin-bottom: 2%;
 }
 
 .productos {
@@ -185,7 +204,7 @@ p{
 }
 
 .productos .title { 
-    background-color: rgb(64, 178, 152);
+    background-color: rgb(46, 113, 98);
 }
 
 .precios {
