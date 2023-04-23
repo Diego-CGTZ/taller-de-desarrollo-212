@@ -133,3 +133,54 @@ while( valor <= 12) {
 for(let numero = 0; numero <=12; numero++){
   console.log(`For: ${numero}`);
 }
+
+for(let actual = 0; actual <=12; actual++){
+  if(actual % 7 ==0){
+    console.log('Entro porque el residuo es cero' + actual);
+  }
+}
+
+var cuenta = 2;
+cuenta *= 2;
+console.log(cuenta);
+
+// let x2 = 5;
+// let y2 = 2;
+// let z2 = x2_ % y2_;
+// console.log(z1);
+
+let x4 = 5;
+let z4 = x4 ** 3;
+console.log(z4);
+
+let x5 = 5;
+let z5 = Math.pow(x5,2);
+console.log(z5);
+
+let x6 = (100 +50) * 3;
+console.log(x6);
+
+let car = '';
+
+miFunction = (a,b) => a*b;
+console.log(miFunction(a,b));
+
+const persona = {
+  nombre : "Juan",
+  apellido : 'Perez',
+  id : 123,
+  nombreCompleto : function(){
+    return this.nombre + "" + this.apellido; 
+  }
+}
+
+console.log(persona.nombreCompleto());
+console.log(persona["apellido"]);
+
+var personax = {
+  nombre : "Jose",
+  edad : "18",
+  ciudad : "Leon"
+}
+
+console.log(personmax);
