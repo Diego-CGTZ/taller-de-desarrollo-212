@@ -185,7 +185,7 @@ p{
 }
 
 .quienes h2 {
-    margin-top: 5%;
+    margin-top: 10%;
 }
 
 .quienes p{
@@ -197,14 +197,37 @@ p{
 }
 
 .productos {
+    
     background: url(imagenes/productos.jpg) no-repeat center;
     background-attachment: fixed;
     background-size: cover;
+    height: 500px;
     text-align: center;
+
 }
 
 .productos .title { 
     background-color: rgb(46, 113, 98);
+}
+
+.kodfun-galeri{
+    display: flex;
+    height: 20rem;
+    width: 30rem;
+    gap: 1rem;
+}
+
+.kodfun-galeri > div {
+    flex: 1;
+    border-radius: 1rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    transition: all .8s cubic-bezier(0.25, 0.4, 0.45, 1.4);
+}
+
+.kodfun-galeri > div:hover {
+    flex: 5;
 }
 
 .precios {
