@@ -1,0 +1,9 @@
+body{
+    animation: colores 10s infinite;
+}
+
+@keyframes colores {
+    0%{
+        background-image: url(https://cdn.pixabay.com/photo/2023/04/13/07/21/tree-7921886_1280.jpg);
+    }
+}
