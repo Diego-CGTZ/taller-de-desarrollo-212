@@ -1,0 +1,25 @@
+h1{
+    font-size: 10em;
+}
+#descripcion{
+    background-color: violet;
+}
+#menu{
+    float: none;
+    width: auto;
+}
+#opciones{
+    margin: 0px;
+    padding: 0px;
+}
+.opcionesMenu{
+    background-color: pink;
+    border: 1px solid black;
+    list-style-type: none;
+    margin: 10px;
+    pad: 10px;
+}
+
+@media screen and (min-width: 480px) {
+    #menu {width: 200px; float: left;}
+}

@@ -1,9 +1,78 @@
 body{
     animation: colores 10s infinite;
+    overflow: x;
 }
 
 @keyframes colores {
-    0%{
-        background-image: url(https://cdn.pixabay.com/photo/2023/04/13/07/21/tree-7921886_1280.jpg);
+    0% {
+        background: pink;
     }
+    25% {
+        background: purple;
+    }
+    50% {
+        background: yellow;
+    }
+    100% {
+        background: green;
+    }
+}
+
+.cuadroBlanco{
+    background-color: white;
+    position: absolute;
+    animation: mueveCuadro 2s infinite;
+}
+
+#cuadroBlanco1{
+    width: 100px;
+    height: 100px;
+    left: 50px;
+}
+
+#cuadroBlanco2{
+    width: 100px;
+    height: 100px;
+    left: 200px;
+}
+
+
+#cuadroRojo1{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    left: 400px;    
+    position: absolute;
+    animation: rebote 3s infinite;
+}
+
+@keyframes rebote {
+    0%{top: 0px}
+    25%{top: 200px}
+    50%{top: 50px}
+    100%{top: 100px}
+}
+
+@keyframes mueveCuadro {
+    from{
+        top:0px;
+    }
+    to{
+        top: 100px;
+    }
+}
+
+#cuadroMultiColor{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 50px;
+    animation: moverMultiColor 1s infinite;
+}
+
+@keyframes moverMultiColor {
+    0% {top: 0px ; left: 500px ; background-color: red;}
+    25% {top: 100px ; left: 600px ; background-color: rgb(0, 42, 255);}
+    50% {top: 50px ; left: 600px ; background-color: rgb(17, 255, 0);}
+    100% {top: 100px ; left: 500px ; background-color: rgb(255, 0, 230);}
 }
