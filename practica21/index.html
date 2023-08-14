@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practica21</title>
+</head>
+<body>
+        <div id="paises"></div>
+
+        <script>
+            let datos = [
+                {
+                    "nombre" : "México",
+                    "id" : 1
+                },
+                {
+                    "nombre" : "Venezuela",
+                    "id" : 2
+                },
+                {
+                    "nombre" : "Nicaragua",
+                    "id" : 3
+                }
+            ];
+            console.log(datos);
+            let paises = document.getElementById("paises");
+
+            datos.forEach( registro =>{
+                conosle.log(pais.nombre);
+                conosle.log(pais.id);
+            
+                let nombrePais = document.createElement("p");
+                nombrePais.textContent = pais.nombre;
+
+                paises.appendChild(nombrePais);
+            });
+            
+        </script>
+</body>
+</html>
